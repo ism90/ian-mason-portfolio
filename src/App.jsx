@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 
 import React from 'react'
 
 const App = () => {
   return (
     <div>
-      
+      <h1>Ian Mason</h1>
     </div>
   )
 }
