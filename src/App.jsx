@@ -1,10 +1,12 @@
 
-import React from 'react'
+import React from "react";
+//Import Pages
+import Hero from "./pages/Hero";
 
 const App = () => {
   return (
-    <div>
-      <h1>Ian Mason</h1>
+    <div className="App">
+      <Hero />
     </div>
   )
 }
