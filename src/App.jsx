@@ -1,7 +1,7 @@
 
 import React from "react";
-//Import Pages
 import Hero from "./pages/Hero";
+import "./App.scss";
 
 const App = () => {
   return (

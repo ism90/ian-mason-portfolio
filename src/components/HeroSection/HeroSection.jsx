@@ -24,9 +24,9 @@ const HeroSection = () => {
         </p>
         <button>My Projects</button>
       </div>
-      <div className="image">
+      {/* <div className="image">
         <img src={hero} alt="mountain range" />
-      </div>
+      </div> */}
     </div>
   );
 };
