@@ -7,6 +7,8 @@ import {
   StyledHide,
 } from "../styles";
 
+import { Link } from "react-router-dom";
+
 const HeroSection = () => {
   return (
     <StyledBasicLayout>
@@ -24,8 +26,9 @@ const HeroSection = () => {
             <h2>A Web Developer.</h2>
           </StyledHide>
         </div>
-
-        <StyledButton>My Projects</StyledButton>
+        <Link to="/projects">
+          <StyledButton>My Projects</StyledButton>
+        </Link>
       </StyledDescription>
     </StyledBasicLayout>
   );
