@@ -47,6 +47,15 @@ const StyledNav = styled.nav`
   a {
     color: #d1d5e8;
     text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    &:hover {
+      color: white;
+      text-decoration: underline;
+      text-decoration-color: #fd4370;
+      text-decoration-thickness: 4px;
+    }
   }
 
   #logo img {
