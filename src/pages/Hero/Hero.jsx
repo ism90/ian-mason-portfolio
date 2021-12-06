@@ -1,6 +1,5 @@
 import React from "react";
-//Page Components
-import HeroSection from "../components/HeroSection/HeroSection";
+import HeroSection from "../../components/HeroSection/HeroSection";
 
 const AboutUs = () => {
   return <HeroSection />;
