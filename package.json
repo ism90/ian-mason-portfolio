@@ -2,7 +2,7 @@
   "name": "ian-mason-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ism90/ian-mason-portfolio",
+  "homepage": "https://ism90.github.io/ian-mason-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
