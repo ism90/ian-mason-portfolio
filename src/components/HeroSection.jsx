@@ -1,34 +1,38 @@
 import React from "react";
-
-
+import styled from "styled-components";
+import {
+  StyledBasicLayout,
+  StyledDescription,
+  StyledImage,
+  StyledHide,
+} from "../styles";
 
 const HeroSection = () => {
   return (
-    <div>
-      <div className="description">
+    <StyledBasicLayout>
+      <StyledDescription>
         <div className="title">
-          <div className="hide">
+          <StyledHide>
             <h2>Hello.</h2>
-          </div>
-          <div className="hide">
+          </StyledHide>
+          <StyledHide>
             <h2>
               I'm <span>Ian</span>.
             </h2>
-          </div>
-          <div className="hide">
+          </StyledHide>
+          <StyledHide>
             <h2>A Web Developer.</h2>
-          </div>
+          </StyledHide>
         </div>
-        <p>
-          Take a look around!
-        </p>
-        <button>My Projects</button>
-      </div>
-      {/* <div className="image">
-        <img src={hero} alt="mountain range" />
-      </div> */}
-    </div>
+
+        <StyledButton>My Projects</StyledButton>
+      </StyledDescription>
+    </StyledBasicLayout>
   );
 };
+
+const StyledButton = styled.button`
+  margin-top: 5rem;
+`;
 
 export default HeroSection;
