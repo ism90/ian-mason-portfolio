@@ -1,24 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 import Logo from "../images/Logo.png";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
     <StyledNav>
       <h1>
-        <a id="logo" href="#">
+        <Link id="logo" to="/">
           <img src={Logo} alt="Ian Mason"></img>
-        </a>
+        </Link>
       </h1>
       <ul>
         <li>
-          <a href="#">Projects</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <a href="#">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </StyledNav>
@@ -59,8 +60,8 @@ const StyledNav = styled.nav`
   }
 
   #logo img {
-    height: 50%;
-    width: 50%;
+    height: 5rem;
+    width: 15rem;
   }
 `;
 
