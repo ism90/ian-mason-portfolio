@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
 
 body {
   background: linear-gradient( #1C1E31, #131628);
-  font-family: "Poppins", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 button {
@@ -33,7 +33,6 @@ button {
 
   h2{
     color: white;
-    font-weight: lighter;
     font-size: 4rem;
     /* text-decoration: underline 0.15em #fd4370;
     text-underline-offset: 0.3em; */
