@@ -9,7 +9,7 @@ export const ProjectState = () => {
       mainImg: Lujam,
       secondaryImg: Lujam,
       url: "/ian-mason-portfolio/projects/lujam",
-      awards: [
+      details: [
         {
           title: "Truly A masterpiece",
           description:
@@ -32,7 +32,7 @@ export const ProjectState = () => {
       mainImg: ConnectFour,
       url: "/ian-mason-portfolio/projects/connect-four",
       secondaryImg: ConnectFour,
-      awards: [
+      details: [
         {
           title: "Truly A masterpiece",
           description:
