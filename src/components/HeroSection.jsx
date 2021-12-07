@@ -21,7 +21,7 @@ const HeroSection = () => {
             <h2>A Web Developer.</h2>
           </StyledHeroHide>
         </div>
-        <Link to="/projects">
+        <Link to="ian-mason-portfolio/projects">
           <StyledButton>My Projects</StyledButton>
         </Link>
       </StyledHeroDescription>

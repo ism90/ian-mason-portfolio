@@ -11,17 +11,25 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="App">
-      <Router>
+    <Router>
+      <div className="App">
         <Nav />
         <Routes>
           <Route exact path="/ian-mason-portfolio" element={<Hero />} />
-          <Route exact path="/projects" element={<Projects />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route
+            exact
+            path="ian-mason-portfolio/projects"
+            element={<Projects />}
+          />
+          <Route exact path="ian-mason-portfolio/about" element={<About />} />
+          <Route
+            exact
+            path="ian-mason-portfolio/contact"
+            element={<Contact />}
+          />
         </Routes>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 };
 

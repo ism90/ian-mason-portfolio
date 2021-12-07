@@ -13,13 +13,13 @@ const Nav = () => {
       </h1>
       <ul>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="ian-mason-portfolio/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="ian-mason-portfolio/about">About</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="ian-mason-portfolio/contact">Contact</Link>
         </li>
       </ul>
     </StyledNav>
