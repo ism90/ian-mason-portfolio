@@ -1,14 +1,20 @@
 import React from "react";
-
+import { motion } from "framer-motion";
+import { pageAnimation } from "../../animation";
 
 import Me from "../../assets/images/Me.png";
 
 import styles from "./AboutSection.module.scss";
 
-
 const AboutSection = () => {
   return (
-    <section className={styles.about}>
+    <motion.div
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+      className={styles.about}
+    >
       <div className={styles.description}>
         <div className="title">
           <div className={styles.hide}>
@@ -29,7 +35,7 @@ const AboutSection = () => {
       <div className={styles.image}>
         <img src={Me} alt="Ian" />
       </div>
-    </section>
+    </motion.div>
   );
 };
 

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { ProjectState } from "../../projectState";
+import { motion } from "framer-motion";
+import { pageAnimation } from "../../animation";
 
 import styles from "./ProjectDetail.module.scss";
 
@@ -27,7 +29,13 @@ const ProjectDetail = () => {
   return (
     <>
       {project && (
-        <div className={styles.layout}>
+        <motion.div
+          variants={pageAnimation}
+          initial="hidden"
+          animate="show"
+          exit="exit"
+          className={styles.layout}
+        >
           <div className={styles.headline}>
             <h2>{project.title}</h2>
             <img src={project.mainImg} alt="project" />
@@ -44,7 +52,7 @@ const ProjectDetail = () => {
           <div className={styles.secondImg}>
             <img src={project.secondaryImg} alt="" />
           </div>
-        </div>
+        </motion.div>
       )}
     </>
   );
