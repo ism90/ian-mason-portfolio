@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
+import GlobalStyles from "./globalstyles"
 import "./App.scss";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -14,6 +15,7 @@ const App = () => {
     <Router>
       <div className="App">
         <Nav />
+        <GlobalStyles />
         <Routes>
           <Route exact path="/ian-mason-portfolio" element={<Hero />} />
           <Route
