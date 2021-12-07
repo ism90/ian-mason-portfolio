@@ -1,6 +1,10 @@
 import React from "react";
+
+
 import Me from "../../assets/images/Me.png";
+
 import styles from "./AboutSection.module.scss";
+
 
 const AboutSection = () => {
   return (

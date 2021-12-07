@@ -8,6 +8,7 @@ const ProjectDetail = () => {
   const location = useLocation();
   const currentURL = location.pathname;
 
+  // eslint-disable-next-line no-unused-vars
   const [projects, setProjects] = useState(ProjectState);
 
   const [project, setProject] = useState(null);
