@@ -1,5 +1,5 @@
 import React from "react";
-import GlobalStyle from "./components/GlobalStyle";
+
 import Hero from "./pages/Hero";
 import Projects from "./pages/Projects";
 import About from "./pages/About";

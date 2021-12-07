@@ -34,6 +34,8 @@ const HeroSection = () => {
   );
 };
 
+
+
 const StyledButton = styled.button`
   margin-top: 5rem;
 `;
