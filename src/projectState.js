@@ -11,17 +11,17 @@ export const ProjectState = () => {
       url: "/ian-mason-portfolio/projects/lujam",
       details: [
         {
-          title: "Truly A masterpiece",
+          title: "",
           description:
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "",
           description:
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
         {
-          title: "It’s okay lmao.",
+          title: "",
           description:
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
@@ -34,17 +34,17 @@ export const ProjectState = () => {
       secondaryImg: ConnectFour,
       details: [
         {
-          title: "Truly A masterpiece",
+          title: "",
           description:
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "",
           description:
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
         {
-          title: "It’s okay lmao.",
+          title: "",
           description:
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },

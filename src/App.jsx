@@ -1,24 +1,24 @@
 import React from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 import Hero from "./pages/Hero/Hero";
 import Projects from "./pages/Projects/Projects";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Nav from "./components/Nav/Nav";
-
 import ProjectDetail from "./pages/ProjectDetail/ProjectDetail";
 
 import "./App.scss";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
 const App = () => {
-  return (
-    <Router>
-      <div className="App">
-        <Nav />
+  const location = useLocation();
 
-        <Routes>
+  return (
+    <div className="App">
+      <Nav />
+      <AnimatePresence exitBeforeEnter>
+        <Routes location={location} key={location.pathname}>
           <Route exact path="/ian-mason-portfolio" element={<Hero />} />
           <Route
             exact
@@ -37,8 +37,8 @@ const App = () => {
             element={<Contact />}
           />
         </Routes>
-      </div>
-    </Router>
+      </AnimatePresence>
+    </div>
   );
 };
 

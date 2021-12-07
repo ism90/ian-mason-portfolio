@@ -13,6 +13,7 @@ const ProjectsSection = () => {
       variants={pageAnimation}
       initial="hidden"
       animate="show"
+      exit="exit"
       className={styles.projects}
     >
       <div className={styles.project}>

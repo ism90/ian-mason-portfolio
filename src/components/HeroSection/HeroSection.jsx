@@ -11,6 +11,7 @@ const HeroSection = () => {
       variants={pageAnimation}
       initial="hidden"
       animate="show"
+      exit="exit"
       className={styles.hero}
     >
       <div className={styles.description}>
