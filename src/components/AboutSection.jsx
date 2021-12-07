@@ -1,6 +1,6 @@
 import React from "react";
 import Me from "../images/Me.png";
-import styled from "styled-components";
+
 import {
   StyledLayout,
   StyledDescription,
