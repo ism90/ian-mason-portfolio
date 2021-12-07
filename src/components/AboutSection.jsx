@@ -2,38 +2,34 @@ import React from "react";
 import Me from "../images/Me.png";
 import styled from "styled-components";
 
-
-
 const AboutSection = () => {
   return (
-    <StyledBasicLayout>
-      <StyledDescription>
+    <StyledAboutLayout>
+      <StyledAboutDescription>
         <div className="title">
-          <StyledHide>
+          <StyledAboutHide>
             <h2>About</h2>
-          </StyledHide>
-          <StyledHide>
+          </StyledAboutHide>
+          <StyledAboutHide>
             <h2>
               Hello! I'm <span>Ian</span>, and I'm a{" "}
             </h2>
-          </StyledHide>
-          <StyledHide>
+          </StyledAboutHide>
+          <StyledAboutHide>
             <h2> web developer</h2>
-          </StyledHide>
+          </StyledAboutHide>
         </div>
         <p>I have recently completed... FILLER</p>
         <button>Contact Me</button>
-      </StyledDescription>
-      <StyledImage>
+      </StyledAboutDescription>
+      <StyledAboutImage>
         <img src={Me} alt="Ian" />
-      </StyledImage>
-    </StyledBasicLayout>
+      </StyledAboutImage>
+    </StyledAboutLayout>
   );
 };
 
-
-
-const StyledBasicLayout = styled.div`
+const StyledAboutLayout = styled.div`
   min-height: 90vh;
   display: flex;
   align-items: center;
@@ -41,11 +37,11 @@ const StyledBasicLayout = styled.div`
   padding: 5rem 10rem;
   color: #fafafafa;
 `;
-const StyledDescription = styled.div`
+const StyledAboutDescription = styled.div`
   flex: 1;
   padding-right: 5rem;
 `;
-const StyledImage = styled.div`
+const StyledAboutImage = styled.div`
   flex: 1;
   overflow: hidden;
   img {
@@ -54,7 +50,7 @@ const StyledImage = styled.div`
     object-fit: cover;
   }
 `;
-const StyledHide = styled.div`
+const StyledAboutHide = styled.div`
   overflow: hidden;
 `;
 

@@ -6,26 +6,26 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <StyledBasicLayout>
-      <StyledDescription>
+    <StyledHero>
+      <StyledHeroDescription>
         <div className="title">
-          <StyledHide>
+          <StyledHeroHide>
             <h2>Hello.</h2>
-          </StyledHide>
-          <StyledHide>
+          </StyledHeroHide>
+          <StyledHeroHide>
             <h2>
               I'm <span>Ian</span>.
             </h2>
-          </StyledHide>
-          <StyledHide>
+          </StyledHeroHide>
+          <StyledHeroHide>
             <h2>A Web Developer.</h2>
-          </StyledHide>
+          </StyledHeroHide>
         </div>
         <Link to="/projects">
           <StyledButton>My Projects</StyledButton>
         </Link>
-      </StyledDescription>
-    </StyledBasicLayout>
+      </StyledHeroDescription>
+    </StyledHero>
   );
 };
 
@@ -35,7 +35,7 @@ const StyledButton = styled.button`
   margin-top: 5rem;
 `;
 
-const StyledBasicLayout = styled.div`
+const StyledHero = styled.div`
   min-height: 90vh;
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@ const StyledBasicLayout = styled.div`
   padding: 5rem 10rem;
   color: #fafafafa;
 `;
-const StyledDescription = styled.div`
+const StyledHeroDescription = styled.div`
   flex: 1;
   padding-right: 5rem;
 `;
@@ -56,7 +56,7 @@ const StyledImage = styled.div`
     object-fit: cover;
   }
 `;
-const StyledHide = styled.div`
+const StyledHeroHide = styled.div`
   overflow: hidden;
 `;
 

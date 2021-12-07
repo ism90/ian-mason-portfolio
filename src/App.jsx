@@ -15,7 +15,7 @@ const App = () => {
       <Router>
         <Nav />
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route exact path="/ian-mason-portfolio" element={<Hero />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
