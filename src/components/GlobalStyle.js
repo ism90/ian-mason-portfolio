@@ -34,6 +34,7 @@ button {
   h2{
     color: white;
     font-size: 4rem;
+    font-weight: 500;
     /* text-decoration: underline 0.15em #fd4370;
     text-underline-offset: 0.3em; */
   }

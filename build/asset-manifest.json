@@ -1,25 +1,29 @@
 {
   "files": {
     "main.css": "/ian-mason-portfolio/static/css/main.afd7172b.chunk.css",
-    "main.js": "/ian-mason-portfolio/static/js/main.df0222a7.chunk.js",
-    "main.js.map": "/ian-mason-portfolio/static/js/main.df0222a7.chunk.js.map",
-    "runtime-main.js": "/ian-mason-portfolio/static/js/runtime-main.9f823f2e.js",
-    "runtime-main.js.map": "/ian-mason-portfolio/static/js/runtime-main.9f823f2e.js.map",
-    "static/js/2.6bde1e41.chunk.js": "/ian-mason-portfolio/static/js/2.6bde1e41.chunk.js",
-    "static/js/2.6bde1e41.chunk.js.map": "/ian-mason-portfolio/static/js/2.6bde1e41.chunk.js.map",
-    "static/js/3.886c3d83.chunk.js": "/ian-mason-portfolio/static/js/3.886c3d83.chunk.js",
-    "static/js/3.886c3d83.chunk.js.map": "/ian-mason-portfolio/static/js/3.886c3d83.chunk.js.map",
+    "main.js": "/ian-mason-portfolio/static/js/main.417871e1.chunk.js",
+    "main.js.map": "/ian-mason-portfolio/static/js/main.417871e1.chunk.js.map",
+    "runtime-main.js": "/ian-mason-portfolio/static/js/runtime-main.79698a83.js",
+    "runtime-main.js.map": "/ian-mason-portfolio/static/js/runtime-main.79698a83.js.map",
+    "static/css/2.2a4933fb.chunk.css": "/ian-mason-portfolio/static/css/2.2a4933fb.chunk.css",
+    "static/js/2.4a28eca2.chunk.js": "/ian-mason-portfolio/static/js/2.4a28eca2.chunk.js",
+    "static/js/2.4a28eca2.chunk.js.map": "/ian-mason-portfolio/static/js/2.4a28eca2.chunk.js.map",
+    "static/js/3.ac7264f7.chunk.js": "/ian-mason-portfolio/static/js/3.ac7264f7.chunk.js",
+    "static/js/3.ac7264f7.chunk.js.map": "/ian-mason-portfolio/static/js/3.ac7264f7.chunk.js.map",
     "index.html": "/ian-mason-portfolio/index.html",
+    "static/css/2.2a4933fb.chunk.css.map": "/ian-mason-portfolio/static/css/2.2a4933fb.chunk.css.map",
     "static/css/main.afd7172b.chunk.css.map": "/ian-mason-portfolio/static/css/main.afd7172b.chunk.css.map",
-    "static/js/2.6bde1e41.chunk.js.LICENSE.txt": "/ian-mason-portfolio/static/js/2.6bde1e41.chunk.js.LICENSE.txt",
+    "static/js/2.4a28eca2.chunk.js.LICENSE.txt": "/ian-mason-portfolio/static/js/2.4a28eca2.chunk.js.LICENSE.txt",
     "static/media/ConnectFour.32077200.png": "/ian-mason-portfolio/static/media/ConnectFour.32077200.png",
     "static/media/Lujam.3c12e211.png": "/ian-mason-portfolio/static/media/Lujam.3c12e211.png",
-    "static/media/Me.860b00c9.png": "/ian-mason-portfolio/static/media/Me.860b00c9.png"
+    "static/media/Me.860b00c9.png": "/ian-mason-portfolio/static/media/Me.860b00c9.png",
+    "static/media/index.css": "/ian-mason-portfolio/static/media/poppins-latin-900italic.babad407.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f823f2e.js",
-    "static/js/2.6bde1e41.chunk.js",
+    "static/js/runtime-main.79698a83.js",
+    "static/css/2.2a4933fb.chunk.css",
+    "static/js/2.4a28eca2.chunk.js",
     "static/css/main.afd7172b.chunk.css",
-    "static/js/main.df0222a7.chunk.js"
+    "static/js/main.417871e1.chunk.js"
   ]
 }
