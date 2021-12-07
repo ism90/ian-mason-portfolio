@@ -1,12 +1,12 @@
 import React from "react";
 
-import Hero from "./pages/Hero";
-import Projects from "./pages/Projects";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Nav from "./components/Nav";
-import GlobalStyles from "./globalstyles";
-import ProjectDetail from "./pages/ProjectDetail";
+import Hero from "./pages/Hero/Hero";
+import Projects from "./pages/Projects/Projects";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
+import Nav from "./components/Nav/Nav";
+
+import ProjectDetail from "./pages/ProjectDetail/ProjectDetail";
 
 import "./App.scss";
 
@@ -17,7 +17,7 @@ const App = () => {
     <Router>
       <div className="App">
         <Nav />
-        <GlobalStyles />
+
         <Routes>
           <Route exact path="/ian-mason-portfolio" element={<Hero />} />
           <Route

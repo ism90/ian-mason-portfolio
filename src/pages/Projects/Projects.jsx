@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectsSection from "../components/ProjectsSection"
+import ProjectsSection from "../../components/ProjectsSection/ProjectsSection"
 
 const Projects = () => {
   return (

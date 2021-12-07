@@ -1,6 +1,6 @@
 //Import Images
-import Lujam from "./images/Lujam.png";
-import ConnectFour from "./images/ConnectFour.png";
+import Lujam from "./assets/images/Lujam.png";
+import ConnectFour from "./assets/images/ConnectFour.png";
 
 export const ProjectState = () => {
   return [

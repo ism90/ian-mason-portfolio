@@ -1,37 +1,31 @@
 import React from "react";
-import Me from "../images/Me.png";
-
-import {
-  StyledLayout,
-  StyledDescription,
-  StyledHide,
-  StyledImage,
-} from "../styles";
+import Me from "../../assets/images/Me.png";
+import styles from "./AboutSection.module.scss";
 
 const AboutSection = () => {
   return (
-    <StyledLayout>
-      <StyledDescription>
+    <section className={styles.about}>
+      <div className={styles.description}>
         <div className="title">
-          <StyledHide>
+          <div className={styles.hide}>
             <h2>About</h2>
-          </StyledHide>
-          <StyledHide>
+          </div>
+          <div className={styles.hide}>
             <h2>
               Hello! I'm <span>Ian</span>, and I'm a{" "}
             </h2>
-          </StyledHide>
-          <StyledHide>
+          </div>
+          <div className={styles.hide}>
             <h2> web developer</h2>
-          </StyledHide>
+          </div>
         </div>
         <p>I have recently completed... FILLER</p>
         <button>Contact Me</button>
-      </StyledDescription>
-      <StyledImage>
+      </div>
+      <div className={styles.image}>
         <img src={Me} alt="Ian" />
-      </StyledImage>
-    </StyledLayout>
+      </div>
+    </section>
   );
 };
 

@@ -1,7 +1,9 @@
-// globalStyles.js
-import { createGlobalStyle } from "styled-components/macro";
+$color-primary: #131628;
+$color-primary-light: #d1d5e8;
+$color-secondary: #fd4370;
+$color-white: #fafafa;
 
-const GlobalStyle = createGlobalStyle`
+
 * {
   margin: 0;
   padding: 0;
@@ -58,6 +60,3 @@ a {
   font-size: 1.1rem;
 }
 
-`;
-
-export default GlobalStyle;

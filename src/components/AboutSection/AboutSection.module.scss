@@ -1,21 +1,22 @@
-import styled from "styled-components/macro";
-
-// Styled Components
-
-
-export const StyledLayout = styled.div`
+.about {
   min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5rem 10rem;
   color: #fafafafa;
-`;
-export const StyledDescription = styled.div`
+}
+
+.description {
   flex: 1;
   padding-right: 5rem;
-`;
-export const StyledImage = styled.div`
+}
+
+.hide {
+  overflow: hidden;
+}
+
+.image {
   flex: 1;
   overflow: hidden;
   img {
@@ -23,7 +24,4 @@ export const StyledImage = styled.div`
     height: 40vh;
     object-fit: cover;
   }
-`;
-export const StyledHide = styled.div`
-  overflow: hidden;
-`;
+}

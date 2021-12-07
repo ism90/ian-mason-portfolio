@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { ProjectState } from "../projectState";
+import { ProjectState } from "../../projectState";
 
 const ProjectDetail = () => {
   const location = useLocation();

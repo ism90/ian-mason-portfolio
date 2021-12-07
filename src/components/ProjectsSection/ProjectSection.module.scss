@@ -1,0 +1,24 @@
+@use "../../assets/styles/variables" as *;
+
+.projects {
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 5rem 10rem;
+  h2 {
+    padding: 1rem 0rem;
+  }
+}
+
+.project {
+  padding-bottom: 10rem;
+  .line {
+    height: 0.3rem;
+    background: $color-primary-light;
+    margin-bottom: 3rem;
+  }
+  img {
+    width: 60%;
+    height: 50vh;
+    object-fit: scale-down;
+  }
+}
