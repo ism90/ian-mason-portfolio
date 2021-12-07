@@ -1,11 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  StyledBasicLayout,
-  StyledDescription,
-  StyledImage,
-  StyledHide,
-} from "../styles";
+
 
 import { Link } from "react-router-dom";
 
@@ -39,5 +34,31 @@ const HeroSection = () => {
 const StyledButton = styled.button`
   margin-top: 5rem;
 `;
+
+const StyledBasicLayout = styled.div`
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 10rem;
+  color: #fafafafa;
+`;
+const StyledDescription = styled.div`
+  flex: 1;
+  padding-right: 5rem;
+`;
+const StyledImage = styled.div`
+  flex: 1;
+  overflow: hidden;
+  img {
+    width: 60%;
+    height: 40vh;
+    object-fit: cover;
+  }
+`;
+const StyledHide = styled.div`
+  overflow: hidden;
+`;
+
 
 export default HeroSection;

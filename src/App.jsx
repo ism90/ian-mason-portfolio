@@ -12,11 +12,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 const App = () => {
   return (
     <div className="App">
-
       <Router>
         <Nav />
         <Routes>
-          <Route exact path="/" element={<Hero />} />
+          <Route path="/" element={<Hero />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
