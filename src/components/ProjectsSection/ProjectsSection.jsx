@@ -1,6 +1,9 @@
 import React from "react";
+
 import styles from "./ProjectSection.module.scss";
+
 import { Link } from "react-router-dom";
+
 import { motion } from "framer-motion";
 import { pageAnimation } from "../../animation";
 
@@ -34,4 +37,4 @@ const ProjectsSection = () => {
   );
 };
 
-export default ProjectsSection;
+export default ProjectsSection;  

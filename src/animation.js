@@ -8,6 +8,8 @@ export const pageAnimation = {
     y: 0,
     transition: {
       duration: 1,
+      when: "beforeChildren",
+      staggerChildren: 0.25,
     },
   },
   exit: {
@@ -16,5 +18,13 @@ export const pageAnimation = {
     transition: {
       duration: 1,
     },
+  },
+};
+
+export const titleAnimation = {
+  hidden: { y: 200 },
+  show: {
+    y: 0,
+    transition: { duration: 0.75, ease: "easeOut" },
   },
 };

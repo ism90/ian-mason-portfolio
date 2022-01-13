@@ -1,10 +1,12 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { pageAnimation } from "../../animation";
-
-import Me from "../../assets/images/Me.png";
 
 import styles from "./AboutSection.module.scss";
+
+import { motion } from "framer-motion";
+import { pageAnimation } from "../../animation";
+import { titleAnimation } from "../../animation";
+
+import Me from "../../assets/images/Me.png";
 
 const AboutSection = () => {
   return (
@@ -18,15 +20,15 @@ const AboutSection = () => {
       <div className={styles.description}>
         <div className="title">
           <div className={styles.hide}>
-            <h2>About</h2>
+            <motion.h2 variants={titleAnimation}>About</motion.h2>
           </div>
           <div className={styles.hide}>
-            <h2>
+            <motion.h2 variants={titleAnimation}>
               Hello! I'm <span>Ian</span>, and I'm a{" "}
-            </h2>
+            </motion.h2>
           </div>
           <div className={styles.hide}>
-            <h2> web developer</h2>
+            <motion.h2 variants={titleAnimation}> web developer</motion.h2>
           </div>
         </div>
         <p>I have recently completed... FILLER</p>
