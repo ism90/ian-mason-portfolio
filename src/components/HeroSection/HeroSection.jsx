@@ -6,6 +6,9 @@ import { pageAnimation, titleAnimation, fade } from "../../animation";
 
 import styles from "./HeroSection.module.scss";
 
+// To Do:
+// Take BG image outside of animation
+
 const HeroSection = () => {
   return (
     <motion.div
@@ -16,7 +19,7 @@ const HeroSection = () => {
       className={styles.hero}
     >
       <div className={styles.description}>
-        <div className="title">
+        <div className="hero">
           <div className={styles.hide}>
             <motion.h2 variants={titleAnimation}>
               Hello! I'm <span>Ian</span>.
