@@ -10,6 +10,7 @@
 .description {
   flex: 1;
   padding-right: 5rem;
+  z-index: 2;
 }
 
 .hide {
@@ -19,13 +20,17 @@
 .image {
   flex: 1;
   overflow: hidden;
+  z-index: 2;
   img {
     width: 60%;
     height: 40vh;
     object-fit: cover;
+    border-radius: 5%;
   }
 }
 
-.title {
-  
+
+
+.heading {
+  font-weight: 400;
 }

@@ -8,6 +8,7 @@ import styles from "./HeroSection.module.scss";
 
 // To Do:
 // Take BG image outside of animation
+// Remember to deploy!
 
 const HeroSection = () => {
   return (
@@ -30,7 +31,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className={styles.hide}>
-          <Link to="ian-mason-portfolio/projects">
+          <Link to="projects">
             <motion.button variants={fade} className={styles.button}>
               My Projects
             </motion.button>

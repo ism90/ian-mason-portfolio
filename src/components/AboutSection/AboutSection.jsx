@@ -6,7 +6,8 @@ import { motion } from "framer-motion";
 import { pageAnimation } from "../../animation";
 import { titleAnimation } from "../../animation";
 
-import Me from "../../assets/images/Me.png";
+import Me from "../../assets/images/Me.jpg";
+import Wave from "../Wave/Wave";
 
 const AboutSection = () => {
   return (
@@ -20,16 +21,16 @@ const AboutSection = () => {
       <div className={styles.description}>
         <div className="title">
           <div className={styles.hide}>
-            <motion.h2 variants={titleAnimation}>About</motion.h2>
+            <motion.h2 className={styles.heading} variants={titleAnimation}>About</motion.h2>
           </div>
-          <div className={styles.hide}>
+          {/* <div className={styles.hide}>
             <motion.h2 variants={titleAnimation}>
               Hello! I'm <span>Ian</span>, and I'm a{" "}
             </motion.h2>
           </div>
           <div className={styles.hide}>
             <motion.h2 variants={titleAnimation}> web developer</motion.h2>
-          </div>
+          </div> */}
         </div>
         <p>I have recently completed... FILLER</p>
         <button>Contact Me</button>
@@ -37,6 +38,7 @@ const AboutSection = () => {
       <div className={styles.image}>
         <img src={Me} alt="Ian" />
       </div>
+      <Wave />
     </motion.div>
   );
 };

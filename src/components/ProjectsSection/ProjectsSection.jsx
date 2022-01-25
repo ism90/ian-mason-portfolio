@@ -33,6 +33,34 @@ const ProjectsSection = () => {
           <img src={ConnectFour} alt="Connect Four" />
         </Link>
       </div>
+      <div className={styles.project}>
+        <h2>Connect Four!</h2>
+        <div className={styles.line}></div>
+        <Link to="/ian-mason-portfolio/projects/connect-four">
+          <img src={ConnectFour} alt="Connect Four" />
+        </Link>
+      </div>
+      <div className={styles.project}>
+        <h2>Connect Four!</h2>
+        <div className={styles.line}></div>
+        <Link to="/ian-mason-portfolio/projects/connect-four">
+          <img src={ConnectFour} alt="Connect Four" />
+        </Link>
+      </div>
+      <div className={styles.project}>
+        <h2>Connect Four!</h2>
+        <div className={styles.line}></div>
+        <Link to="/ian-mason-portfolio/projects/connect-four">
+          <img src={ConnectFour} alt="Connect Four" />
+        </Link>
+      </div>
+      <div className={styles.project}>
+        <h2>Connect Four!</h2>
+        <div className={styles.line}></div>
+        <Link to="/ian-mason-portfolio/projects/connect-four">
+          <img src={ConnectFour} alt="Connect Four" />
+        </Link>
+      </div>
     </motion.div>
   );
 };
