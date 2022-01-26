@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/ian-mason-portfolio/static/css/main.9ba85fd6.css",
-    "main.js": "/ian-mason-portfolio/static/js/main.0f34eb70.js",
+    "main.css": "/ian-mason-portfolio/static/css/main.8654df9a.css",
+    "main.js": "/ian-mason-portfolio/static/js/main.4e8b443c.js",
     "static/js/787.aa6b936d.chunk.js": "/ian-mason-portfolio/static/js/787.aa6b936d.chunk.js",
-    "static/media/ConnectFour.png": "/ian-mason-portfolio/static/media/ConnectFour.3207720067686a558fdf.png",
-    "static/media/Me.png": "/ian-mason-portfolio/static/media/Me.860b00c9c6425283bf4d.png",
-    "static/media/Lujam.png": "/ian-mason-portfolio/static/media/Lujam.3c12e211fc0d6fb93d65.png",
+    "static/media/Hero.png": "/ian-mason-portfolio/static/media/Hero.a16b21fc789a1f40c739.png",
+    "static/media/Morse.png": "/ian-mason-portfolio/static/media/Morse.47065bac1051d7fc8ecb.png",
+    "static/media/ConnectFour.png": "/ian-mason-portfolio/static/media/ConnectFour.5e8489035b5b8b5efd0a.png",
+    "static/media/Me.jpg": "/ian-mason-portfolio/static/media/Me.90fdf5b4cafbd149af22.jpg",
+    "static/media/Calc.png": "/ian-mason-portfolio/static/media/Calc.3955eb92926c7706aae1.png",
+    "static/media/Punk.png": "/ian-mason-portfolio/static/media/Punk.e6495daed5e87e80e00d.png",
+    "static/media/Lujam.png": "/ian-mason-portfolio/static/media/Lujam.39db55e5effa4af92851.png",
     "static/media/poppins-latin-300italic.woff": "/ian-mason-portfolio/static/media/poppins-latin-300italic.aea0270e651bfbf3428e.woff",
     "static/media/poppins-latin-200italic.woff": "/ian-mason-portfolio/static/media/poppins-latin-200italic.b12214af6124a2b0f2e6.woff",
     "static/media/poppins-latin-600italic.woff": "/ian-mason-portfolio/static/media/poppins-latin-600italic.8c85f26b213a50aaf21d.woff",
@@ -43,12 +47,12 @@
     "static/media/poppins-latin-900.woff2": "/ian-mason-portfolio/static/media/poppins-latin-900.52f874769ced349a3130.woff2",
     "static/media/poppins-latin-100.woff2": "/ian-mason-portfolio/static/media/poppins-latin-100.ab66112cac2ca46d6cf8.woff2",
     "index.html": "/ian-mason-portfolio/index.html",
-    "main.9ba85fd6.css.map": "/ian-mason-portfolio/static/css/main.9ba85fd6.css.map",
-    "main.0f34eb70.js.map": "/ian-mason-portfolio/static/js/main.0f34eb70.js.map",
+    "main.8654df9a.css.map": "/ian-mason-portfolio/static/css/main.8654df9a.css.map",
+    "main.4e8b443c.js.map": "/ian-mason-portfolio/static/js/main.4e8b443c.js.map",
     "787.aa6b936d.chunk.js.map": "/ian-mason-portfolio/static/js/787.aa6b936d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ba85fd6.css",
-    "static/js/main.0f34eb70.js"
+    "static/css/main.8654df9a.css",
+    "static/js/main.4e8b443c.js"
   ]
 }
