@@ -33,9 +33,7 @@ const ProjectsSection = () => {
           <li>JSX</li>
           <li>SCSS</li>
           <li>Firebase</li>
-          <li>Version Control</li>
           <li>Agile</li>
-          <li>Pair Programming</li>
         </ul>
       </div>
       <div className={styles.project}>

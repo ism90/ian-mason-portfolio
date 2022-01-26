@@ -2,7 +2,8 @@
 
 .projects {
   background: linear-gradient(#1c1e31, #131628);
-  min-height: 90vh;
+  overflow: hidden;
+  min-height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
@@ -11,6 +12,8 @@
   justify-items: stretch;
   align-items: stretch;
   padding: 5rem 10rem;
+  margin-bottom: 3rem;
+
   h2 {
     font-size: 2.5rem;
     padding: 1rem 0rem;
@@ -27,6 +30,7 @@
     width: 100%;
     height: 30vh;
     object-fit: contain;
+    margin-bottom: 1.2rem;
   }
   ul {
     display: flex;
@@ -37,6 +41,9 @@
       position: relative;
       color: $color-primary-light;
       margin-right: 2rem;
+      background: #292b3e;
+      padding: 1rem 1.5rem;
+      border-radius: 0.75rem;
     }
   }
 }
