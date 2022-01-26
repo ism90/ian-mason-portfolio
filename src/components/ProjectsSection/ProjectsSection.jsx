@@ -5,7 +5,12 @@ import styles from "./ProjectSection.module.scss";
 import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
-import { pageAnimation, fade, photoAnimation } from "../../animation";
+import {
+  pageAnimation,
+  fade,
+  photoAnimation,
+  lineAnimation,
+} from "../../animation";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
@@ -43,7 +48,10 @@ const ProjectsSection = () => {
             </a>
           </div>
         </motion.div>
-        <motion.div className={styles.line}></motion.div>
+        <motion.div
+          variants={lineAnimation}
+          className={styles.line}
+        ></motion.div>
         <Link to="/ian-mason-portfolio/projects/lujam">
           <div className={styles.imgWrapper}>
             <motion.img variants={photoAnimation} src={Lujam} alt="Lujam" />
@@ -77,7 +85,10 @@ const ProjectsSection = () => {
             </a>
           </div>
         </motion.div>
-        <motion.div className={styles.line}></motion.div>
+        <motion.div
+          variants={lineAnimation}
+          className={styles.line}
+        ></motion.div>
         <Link to="/ian-mason-portfolio/projects/connect-four">
           <div className={styles.imgWrapper}>
             <motion.img
@@ -113,7 +124,10 @@ const ProjectsSection = () => {
             </a>
           </div>
         </motion.div>
-        <motion.div className={styles.line}></motion.div>
+        <motion.div
+          variants={lineAnimation}
+          className={styles.line}
+        ></motion.div>
         <Link to="/ian-mason-portfolio/projects/punk-api">
           <div className={styles.imgWrapper}>
             <motion.img variants={photoAnimation} src={Punk} alt="Punk API" />
@@ -145,7 +159,10 @@ const ProjectsSection = () => {
             </a>
           </div>
         </motion.div>
-        <motion.div className={styles.line}></motion.div>
+        <motion.div
+          variants={lineAnimation}
+          className={styles.line}
+        ></motion.div>
         <Link to="/ian-mason-portfolio/projects/js-calculator">
           <div className={styles.imgWrapper}>
             <motion.img variants={photoAnimation} src={Calc} alt="Calculator" />
@@ -179,7 +196,10 @@ const ProjectsSection = () => {
             </a>
           </div>
         </motion.div>
-        <motion.div className={styles.line}></motion.div>
+        <motion.div
+          variants={lineAnimation}
+          className={styles.line}
+        ></motion.div>
         <Link to="/ian-mason-portfolio/projects/morse-code-translator">
           <div className={styles.imgWrapper}>
             <motion.img
