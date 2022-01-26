@@ -7,6 +7,10 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { pageAnimation, fade, photoAnimation } from "../../animation";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEye } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 import Lujam from "../../assets/images/Lujam.png";
 import ConnectFour from "../../assets/images/ConnectFour.png";
 import Calc from "../../assets/images/Calc.png";
@@ -28,10 +32,14 @@ const ProjectsSection = () => {
           <h2>LUJAM - Client Project </h2>{" "}
           <div>
             <a href="https://lujam-jersey.web.app/">
-              <button className={styles.button}>Live</button>
+              <FontAwesomeIcon icon={faEye} size="2x" className={styles.icon} />
             </a>
             <a href="https://github.com/ism90/jersey-client-project">
-              <button className={styles.button}>Code</button>
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="2x"
+                className={styles.icon}
+              />
             </a>
           </div>
         </motion.div>
@@ -40,7 +48,8 @@ const ProjectsSection = () => {
           <div className={styles.imgWrapper}>
             <motion.img variants={photoAnimation} src={Lujam} alt="Lujam" />
             <div className={styles.content}>
-              <p>Details</p></div>
+              <p>Details</p>
+            </div>
           </div>
         </Link>
         <motion.ul variants={fade} className={styles.list}>
@@ -56,11 +65,15 @@ const ProjectsSection = () => {
         <motion.div variants={fade} className={styles.title}>
           <h2> Connect Four! </h2>
           <div>
-            <a href="https://lujam-jersey.web.app/">
-              <button className={styles.button}>Live</button>
+            <a href="https://ism90.github.io/connect-four/">
+              <FontAwesomeIcon icon={faEye} size="2x" className={styles.icon} />
             </a>
-            <a href="https://github.com/ism90/jersey-client-project">
-              <button className={styles.button}>Code</button>
+            <a href="https://github.com/ism90/connect-four">
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="2x"
+                className={styles.icon}
+              />
             </a>
           </div>
         </motion.div>
@@ -72,6 +85,9 @@ const ProjectsSection = () => {
               src={ConnectFour}
               alt="Connect Four"
             />
+            <div className={styles.content}>
+              <p className={styles.projectLink}>Details</p>
+            </div>
           </div>
         </Link>
         <motion.ul variants={fade} className={styles.list}>
@@ -85,11 +101,15 @@ const ProjectsSection = () => {
         <motion.div variants={fade} className={styles.title}>
           <h2> Punk API </h2>
           <div>
-            <a href="https://lujam-jersey.web.app/">
-              <button className={styles.button}>Live</button>
+            <a href="https://ism90.github.io/beers-api/">
+              <FontAwesomeIcon icon={faEye} size="2x" className={styles.icon} />
             </a>
-            <a href="https://github.com/ism90/jersey-client-project">
-              <button className={styles.button}>Code</button>
+            <a href="https://github.com/ism90/beers-api">
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="2x"
+                className={styles.icon}
+              />
             </a>
           </div>
         </motion.div>
@@ -97,6 +117,9 @@ const ProjectsSection = () => {
         <Link to="/ian-mason-portfolio/projects/punk-api">
           <div className={styles.imgWrapper}>
             <motion.img variants={photoAnimation} src={Punk} alt="Punk API" />
+            <div className={styles.content}>
+              <p>Details</p>
+            </div>
           </div>
         </Link>
         <motion.ul variants={fade} className={styles.list}>
@@ -110,11 +133,15 @@ const ProjectsSection = () => {
         <motion.div variants={fade} className={styles.title}>
           <h2> JS Calculator </h2>
           <div>
-            <a href="https://lujam-jersey.web.app/">
-              <button className={styles.button}>Live</button>
+            <a href="https://ism90.github.io/simple-JS-calculator/">
+              <FontAwesomeIcon icon={faEye} size="2x" className={styles.icon} />
             </a>
-            <a href="https://github.com/ism90/jersey-client-project">
-              <button className={styles.button}>Code</button>
+            <a href="https://github.com/ism90/simple-JS-calculator">
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="2x"
+                className={styles.icon}
+              />
             </a>
           </div>
         </motion.div>
@@ -122,6 +149,9 @@ const ProjectsSection = () => {
         <Link to="/ian-mason-portfolio/projects/js-calculator">
           <div className={styles.imgWrapper}>
             <motion.img variants={photoAnimation} src={Calc} alt="Calculator" />
+            <div className={styles.content}>
+              <p className={styles.projectLink}>Details</p>
+            </div>
           </div>
         </Link>
         <motion.ul variants={fade} className={styles.list}>
@@ -137,11 +167,15 @@ const ProjectsSection = () => {
         <motion.div variants={fade} className={styles.title}>
           <h2> Morse Code Translator </h2>
           <div>
-            <a href="https://lujam-jersey.web.app/">
-              <button className={styles.button}>Live</button>
+            <a href="https://ism90.github.io/morse-translator/">
+              <FontAwesomeIcon icon={faEye} size="2x" className={styles.icon} />
             </a>
-            <a href="https://github.com/ism90/jersey-client-project">
-              <button className={styles.button}>Code</button>
+            <a href="https://github.com/ism90/morse-translator">
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="2x"
+                className={styles.icon}
+              />
             </a>
           </div>
         </motion.div>
@@ -153,6 +187,9 @@ const ProjectsSection = () => {
               src={Morse}
               alt="Morse Code Translator"
             />
+            <div className={styles.content}>
+              <p className={styles.projectLink}>Details</p>
+            </div>
           </div>
         </Link>
         <motion.ul variants={fade} className={styles.list}>

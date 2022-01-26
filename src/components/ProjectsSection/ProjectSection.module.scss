@@ -20,13 +20,12 @@
       justify-content: space-between;
       align-items: center;
 
-      .button {
-        padding: 0.5rem 1em;
+      .icon {
+        color: $color-white;
+        transition: all 0.25s ease-in-out;
         margin: 0.5rem;
-        font-weight: 500;
-        border: 2px solid #fd4370;
         &:hover {
-          background-color: #fd4370;
+          color: $color-secondary;
         }
       }
 
@@ -42,11 +41,6 @@
       margin-bottom: 3rem;
     }
 
-    .imgWrapper > img,
-    .imgWrapper > .content {
-      transition: all 200ms ease-in-out;
-    }
-
     .imgWrapper {
       overflow: hidden;
       position: relative;
@@ -59,13 +53,13 @@
         margin-bottom: 1.2rem;
       }
 
+      &:hover > img {
+        filter: blur(4px);
+      }
       .content {
         display: none;
-        transition: all 200ms ease-in-out;
-      }
-
-      &:hover > .content {
-        display: flex;
+        opacity: 0;
+        visibility: hidden;
         justify-content: center;
         align-items: center;
         position: absolute;
@@ -75,36 +69,47 @@
           font-size: 2rem;
           font-weight: 600;
           text-decoration: none;
-          transition: all 0.5s ease;
-          color: $color-primary;
-          transition: all 0.5s ease;
+          color: $color-secondary;
+          text-decoration: underline;
+          text-decoration-color: #fd4370;
+          text-decoration-thickness: 4px;
+        }
 
-          &:hover {
-            color: $color-secondary;
-
-            text-decoration-color: $color-primary;
-            text-decoration-thickness: 4px;
-          }
+        .projectLink {
+          color: $color-white;
         }
       }
 
-      &:hover > img {
-        filter: blur(4px);
+      &:hover > .content {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+        animation: fade 2s;
+      }
+
+      @keyframes fade {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
       }
     }
+  }
 
-    ul {
-      display: flex;
-      list-style: none;
-      justify-content: flex-start;
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
 
-      li {
-        position: relative;
-        color: $color-primary-light;
-        margin-right: 2rem;
-        background: #292b3e;
-        padding: 1rem 1.5rem;
-      }
+    li {
+      position: relative;
+      color: $color-primary-light;
+      margin-right: 2rem;
+      background: #292b3e;
+      padding: 1rem 1.5rem;
     }
   }
 }
