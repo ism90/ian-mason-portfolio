@@ -32,6 +32,25 @@
   }
 }
 
+.resume {
+  border: 3px solid #fd4370;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.5s ease;
+  font-weight: 500;
+  &:hover {
+    background-color: #fd4370;
+  }
+}
+
 .logo img {
   margin-top: 1rem;
   height: 5rem;
@@ -49,5 +68,4 @@
       transform: scale(1.2);
     }
   }
-  
 }
