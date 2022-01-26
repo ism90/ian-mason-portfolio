@@ -39,16 +39,17 @@ const ProjectsSection = () => {
         <Link to="/ian-mason-portfolio/projects/lujam">
           <div className={styles.imgWrapper}>
             <motion.img variants={photoAnimation} src={Lujam} alt="Lujam" />
-            <div className={styles.content}> Details</div>
+            <div className={styles.content}>
+              <p>Details</p></div>
           </div>
         </Link>
-        <ul className={styles.list}>
+        <motion.ul variants={fade} className={styles.list}>
           <li>React</li>
           <li>JSX</li>
           <li>SCSS</li>
           <li>Firebase</li>
           <li>Agile</li>
-        </ul>
+        </motion.ul>
       </div>
 
       <div className={styles.project}>
@@ -73,11 +74,11 @@ const ProjectsSection = () => {
             />
           </div>
         </Link>
-        <ul className={styles.list}>
+        <motion.ul variants={fade} className={styles.list}>
           <li>HTML</li>
           <li>SCSS</li>
           <li>JavaScript</li>
-        </ul>
+        </motion.ul>
       </div>
 
       <div className={styles.project}>
@@ -98,11 +99,11 @@ const ProjectsSection = () => {
             <motion.img variants={photoAnimation} src={Punk} alt="Punk API" />
           </div>
         </Link>
-        <ul className={styles.list}>
+        <motion.ul variants={fade} className={styles.list}>
           <li>React</li>
           <li>SCSS</li>
           <li>JSX</li>
-        </ul>
+        </motion.ul>
       </div>
 
       <div className={styles.project}>
@@ -123,13 +124,13 @@ const ProjectsSection = () => {
             <motion.img variants={photoAnimation} src={Calc} alt="Calculator" />
           </div>
         </Link>
-        <ul className={styles.list}>
+        <motion.ul variants={fade} className={styles.list}>
           <li>HTML</li>
           <li>SCSS</li>
           <li>JavaScript</li>
           <li>E2E Testing</li>
           <li>Cypress</li>
-        </ul>
+        </motion.ul>
       </div>
 
       <div className={styles.project}>
@@ -154,12 +155,12 @@ const ProjectsSection = () => {
             />
           </div>
         </Link>
-        <ul className={styles.list}>
+        <motion.ul variants={fade} className={styles.list}>
           <li>HTML</li>
           <li>SCSS</li>
           <li>JavaScript</li>
           <li>TDD</li>
-        </ul>
+        </motion.ul>
       </div>
     </motion.div>
   );
