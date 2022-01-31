@@ -24,6 +24,9 @@ import Punk from "../../assets/images/Punk.png";
 
 const ProjectsSection = () => {
   return (
+
+
+
     <motion.div
       variants={pageAnimation}
       initial="hidden"
@@ -31,6 +34,10 @@ const ProjectsSection = () => {
       exit="exit"
       className={styles.projects}
     >
+  
+
+
+
       <div className={styles.project}>
         <motion.div variants={fade} className={styles.title}>
           {" "}
@@ -175,7 +182,6 @@ const ProjectsSection = () => {
           <li>HTML</li>
           <li>SCSS</li>
           <li>JavaScript</li>
-          <li>E2E Testing</li>
           <li>Cypress</li>
         </motion.ul>
       </div>
@@ -220,6 +226,7 @@ const ProjectsSection = () => {
         </motion.ul>
       </div>
     </motion.div>
+
   );
 };
 

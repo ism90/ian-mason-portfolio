@@ -1,12 +1,8 @@
-import React from 'react'
-import ProjectsSection from "../../components/ProjectsSection/ProjectsSection"
+import React from "react";
+import ProjectsSection from "../../components/ProjectsSection/ProjectsSection";
 
 const Projects = () => {
-  return (
-    <div>
-      <ProjectsSection />
-    </div>
-  )
-}
+  return <ProjectsSection />;
+};
 
-export default Projects
+export default Projects;

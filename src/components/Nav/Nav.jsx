@@ -23,7 +23,7 @@ const Nav = () => {
           <Link to="ian-mason-portfolio/contact" className={styles.link}>Contact</Link>
         </li>
         <li className={styles.li}>
-          <Link to="/ian-mason-portfolio" className={styles.resume}>Resume</Link>
+          <Link to="/ian-mason-portfolio" className={styles.resume}>CV</Link>
         </li>
 
       </ul>

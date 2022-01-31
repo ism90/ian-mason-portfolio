@@ -1,3 +1,6 @@
+@use "../../assets/styles/variables" as *;
+
+
 .nav {
   min-height: 10vh;
   display: flex;
@@ -22,7 +25,7 @@
   color: #d1d5e8;
   text-decoration: none;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   transition: all 0.5s ease;
   &:hover {
     color: white;
@@ -41,13 +44,14 @@
   padding: 1rem 2rem;
   cursor: pointer;
   color: white;
-  background-color: transparent;
+  background-color: $color-secondary;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 0.5s ease;
   font-weight: 500;
   &:hover {
-    background-color: #fd4370;
+    
+    background-color: transparent;
   }
 }
 

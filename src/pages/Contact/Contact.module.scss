@@ -1,0 +1,78 @@
+@use "../../assets/styles/variables" as *;
+
+.contact {
+  min-height: 90vh;
+  overflow: hidden;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 15rem;
+  z-index: 2;
+
+  .title {
+    font-weight: 500;
+    font-size: 3rem;
+  }
+
+  .hide {
+    overflow: hidden;
+  }
+
+  .social {
+    flex: 1;
+    padding-right: 5rem;
+    margin-bottom: 18rem;
+
+  }
+
+  .links {
+    flex: 1;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "icons icons icons"
+      "cv cv cv"
+      "email email email";
+    grid-column-gap: 3%;
+    grid-row-gap: 3%;
+    list-style: none;
+
+    li {
+      margin-bottom: 5rem;
+    }
+
+    .cv {
+      background-color: $color-secondary;
+      grid-area: cv;
+      transition: all 0.5s ease;
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    .email {
+      grid-area: email;
+      color: $color-primary-light;
+      font-weight: 500;
+    }
+  }
+
+  .icon {
+    color: $color-white;
+    grid-area: icons;
+    transition: all 0.5s ease;
+
+    &:hover {
+      color: $color-secondary;
+    }
+  }
+
+
+}

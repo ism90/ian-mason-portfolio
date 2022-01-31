@@ -1,11 +1,65 @@
 import React from "react";
-import ContactSection from "../../components/ContactSection/ContactSection";
+
+import { motion } from "framer-motion";
+import { pageAnimation, fade } from "../../animation";
+import styles from "./Contact.module.scss";
+
+import Wave from "../../components/Wave/Wave";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
-    <div>
-      <ContactSection />
-    </div>
+    <motion.div
+      exit="exit"
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      className={styles.contact}
+    >
+      <motion.div className={styles.social}>
+        <motion.h2 variants={fade} className={styles.title}>
+          Get in Touch
+        </motion.h2>
+        <motion.p variants={fade}>I'd love to hear from you.</motion.p>
+      </motion.div>
+      <motion.div variants={fade} className={styles.links}>
+        <div className={styles.grid}>
+          <li>
+            {" "}
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              size="5x"
+              className={styles.icon}
+            />
+          </li>
+          <li>
+            {" "}
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              size="5x"
+              className={styles.icon}
+            />
+          </li>
+          <li>
+            {" "}
+            <FontAwesomeIcon
+              icon={faGithub}
+              size="5x"
+              className={styles.icon}
+            />
+          </li>
+          <li>
+            <button className={styles.cv}>My CV</button>
+          </li>
+          <li className={styles.email}>ianmason5@gmail.com</li>
+        </div>
+      </motion.div>
+      <Wave className={styles.wave} />
+    </motion.div>
   );
 };
 
