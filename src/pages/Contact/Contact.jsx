@@ -28,30 +28,29 @@ const Contact = () => {
       </motion.div>
       <motion.div variants={fade} className={styles.links}>
         <div className={styles.grid}>
-          <li>
+          <a href="mailto:ianmason5@gmail.com">
             {" "}
             <FontAwesomeIcon
               icon={faEnvelope}
               size="5x"
               className={styles.icon}
             />
-          </li>
-          <li>
-            {" "}
+          </a>
+          <a href="https://www.linkedin.com/in/ism90/">
             <FontAwesomeIcon
               icon={faLinkedin}
               size="5x"
               className={styles.icon}
             />
-          </li>
-          <li>
+          </a>
+          <a href="https://github.com/ism90/">
             {" "}
             <FontAwesomeIcon
               icon={faGithub}
               size="5x"
               className={styles.icon}
             />
-          </li>
+          </a>
           <li>
             <button className={styles.cv}>My CV</button>
           </li>
