@@ -2,6 +2,8 @@ import React from "react";
 
 import styles from "./AboutSection.module.scss";
 
+import { Link } from "react-router-dom";
+
 import { motion } from "framer-motion";
 import { pageAnimation, fade } from "../../animation";
 
@@ -25,7 +27,11 @@ const AboutSection = () => {
         <motion.p variants={fade}>
           I have recently completed a 12 week... (tbc)
         </motion.p>
-        <motion.button variants={fade}>Contact Me</motion.button>
+
+        <Link to="ian-mason-portfolio/contact">
+          {" "}
+          <motion.button variants={fade}>Contact</motion.button>{" "}
+        </Link>
       </div>
       <div className={styles.image}>
         <motion.img variants={fade} src={Me} alt="Ian" />
