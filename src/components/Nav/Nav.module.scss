@@ -16,7 +16,12 @@
 
   @include tablet {
     flex-direction: column;
-    padding: 1rem 1rem;
+    padding: 3rem 2rem;
+  }
+
+  @include mobile {
+    flex-direction: column;
+    padding: 2rem 0.5rem;
   }
 }
 
@@ -25,9 +30,13 @@
   list-style: none;
 
   @include tablet {
-    padding: 2rem;
+    padding: 1rem;
     justify-content: space-around;
     width: 100%;
+  }
+
+  @include mobile {
+    padding: 0rem;
   }
 }
 
@@ -76,6 +85,9 @@
     background-color: transparent;
   }
 
+  @include tablet {
+    padding: 0.8rem 1.9rem;
+  }
   @include mobile {
     padding: 0.5rem 0.75rem;
     font-size: 1.1rem;
@@ -85,11 +97,9 @@
 .logo {
   @include tablet {
     display: inline-block;
-    margin: 1rem;
   }
 
   img {
-    margin-top: 1rem;
     height: 5rem;
     width: 15rem;
   }
