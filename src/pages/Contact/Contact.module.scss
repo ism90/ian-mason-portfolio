@@ -1,4 +1,5 @@
 @use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
 
 .contact {
   min-height: 90vh;
@@ -11,6 +12,14 @@
   padding: 5rem 15rem;
   z-index: 2;
 
+  @include tablet {
+    padding: 2rem 2rem;
+  }
+
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+  }
 
   .title {
     font-weight: 500;
@@ -23,21 +32,30 @@
 
   .social {
     flex: 1;
-    padding-right: 5rem;
-    padding-bottom: 40rem;
 
+    margin-bottom: 40rem;
+
+    @include mobile {
+      margin-bottom: 1rem;
+    }
   }
 
   .links {
     flex: 1;
-    padding-bottom: 28rem;
+    margin-bottom: 28rem;
+
+    @include tablet {
+      margin-bottom: 23rem;
+    }
+    @include mobile {
+      margin-bottom: 0;
+    }
   }
 
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
     grid-template-areas:
       "icons icons icons"
       "cv cv cv"
@@ -46,12 +64,18 @@
     grid-row-gap: 3%;
     list-style: none;
 
+    @include mobile {
+      grid-column-gap: 0%;
+      grid-row-gap: 0%;
+    }
+
     li {
       margin-bottom: 5rem;
     }
 
     .cv {
       background-color: $color-secondary;
+      padding: 1.5rem 1rem;
       grid-area: cv;
       transition: all 0.5s ease;
       &:hover {
@@ -73,6 +97,10 @@
 
     &:hover {
       color: $color-secondary;
+    }
+
+    @include tablet {
+      font-size: 4rem;
     }
   }
 }
