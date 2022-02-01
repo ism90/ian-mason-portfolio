@@ -58,8 +58,9 @@
   &:hover {
     color: white;
     text-decoration: underline;
-    text-decoration-color: #fd4370;
+    text-decoration-color: $color-secondary;
     text-decoration-thickness: 4px;
+    text-underline-offset: 5px;
   }
 
   @include mobile {
@@ -116,4 +117,14 @@
       }
     }
   }
+}
+
+.line {
+  height: 0.4rem;
+  background: $color-secondary;
+  width: 100%;
+  border-radius: 50%;
+  position: relative;
+  bottom: 50%;
+  left: -12%;
 }
