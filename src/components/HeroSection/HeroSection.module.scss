@@ -1,6 +1,8 @@
 @use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
 
 .hero {
+  overflow: hidden;
   min-height: 90vh;
   overflow: hidden;
   display: flex;
@@ -8,6 +10,13 @@
   justify-content: space-between;
   padding: 5rem 10rem;
   color: #fafafafa;
+
+  @include tablet {
+  }
+
+  @include mobile {
+    flex-direction: column;
+  }
 }
 
 .bg {
@@ -19,18 +28,22 @@
 
 .description {
   flex: 1;
-  padding-right: 5rem;
   padding-bottom: 8rem;
-
 }
 
 .hide {
   overflow: hidden;
+
+  h2 {
+    @include mobile {
+      font-size: 2rem;
+    }
+  }
 }
 
 .button {
   margin-top: 5vh;
-  padding: 1rem 14rem 1rem 14rem;
+  padding: 1rem 2rem;
   background-color: $color-secondary;
   &:hover {
     background-color: $color-primary;

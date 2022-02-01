@@ -6,11 +6,6 @@ import { pageAnimation, titleAnimation, fade } from "../../animation";
 
 import styles from "./HeroSection.module.scss";
 
-
-// To Do:
-// New Animation to fade out Background 
-// Remember to deploy!
-
 const HeroSection = () => {
   return (
     <div className={styles.bg}>
