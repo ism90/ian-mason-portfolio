@@ -1,18 +1,28 @@
 @use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
 
 .projects {
   background: linear-gradient(#1c1e31, #131628);
   min-height: 90vh;
-  overflow: hidden;
+  // overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-column-gap: 3%;
+  grid-column-gap: 2%;
   grid-row-gap: 3%;
   justify-items: stretch;
   align-items: stretch;
-  padding: 5rem 10rem;
-  margin-bottom: 10rem;
+  padding: 5rem 5rem;
+  margin: auto;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+  }
+
+  @include mobile {
+    padding: 2rem 2rem;
+    grid-template-columns: 90vw;
+  }
 
   .project {
     .title {
@@ -31,8 +41,7 @@
       }
 
       h2 {
-        font-size: 2.5rem;
-        padding: 1rem 0rem;
+        font-size: 2rem;
         font-weight: 600;
       }
     }
@@ -74,6 +83,8 @@
           text-decoration: underline;
           text-decoration-color: #fd4370;
           text-decoration-thickness: 4px;
+
+          
         }
 
         .projectLink {
@@ -111,6 +122,12 @@
       margin-right: 2rem;
       background: #292b3e;
       padding: 1rem 1.5rem;
+
+      @include mobile {
+        font-size: 0.7rem;
+        margin: 1rem;
+        padding: 0.5rem 0.5rem;
+      }
     }
   }
 }
