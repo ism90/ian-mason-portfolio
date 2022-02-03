@@ -16,9 +16,9 @@ export const ProjectState = () => {
         {
           title: "Details",
           description1:
-            "The project is built in React and uses Firebase for hosting and authorization. The project ran for four weeks, with each week taking the form of a sprint with a new product owner assigned. Each sprint ended with a demo to the clients.",
+            "As part of the _nology software developer course, this project demonstrated possible design changes for a client's dashboard. The project ran for four weeks, with each week taking the form of a sprint, and pair programming with new peers each sprint. Each sprint ended with a demo to the clients. Trello was used to manage workflow. A git branching strategy was used to work on multiple features. Once a pull request was completed the feature would be added to the codebase.",
           description2:
-            "The project is built in React and uses Firebase for hosting and authorization. The project ran for four weeks, with each week taking the form of a sprint with a new product owner assigned. Each sprint ended with a demo to the clients.",
+            "Throughout the four weeks, I worked on the header component design, the login page and it's functionality using Firebase, secure routing for the site with React Router, and the individual device page, including map functionality.",
           code: "https://github.com/ism90/jersey-client-project",
           live: "https://lujam-jersey.web.app/",
         },

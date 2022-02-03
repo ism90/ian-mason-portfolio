@@ -38,6 +38,8 @@ const ProjectDetail = () => {
         >
           <div className={styles.headline}>
             <h2>{project.title}</h2>
+          </div>
+          <div className={styles.image}>
             <img src={project.mainImg} alt="project" />
           </div>
           <div className={styles.detailsLayout}>
