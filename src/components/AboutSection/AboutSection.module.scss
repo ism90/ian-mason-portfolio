@@ -29,6 +29,8 @@
   }
 }
 
+
+
 .description {
   flex: 1;
   padding-right: 5rem;
@@ -87,10 +89,15 @@
       object-position: center;
       grid-area: 2 / 2 / 3 / 3;
     }
+
+    @include desktop-large {
+     object-fit: contain;
+     height: 50rem;
+    }
   }
 }
 
-button {
+.button {
   background-color: $color-secondary;
   &:hover {
     background-color: transparent;
@@ -116,6 +123,13 @@ button {
   align-items: center;
 
   @include tablet {
+  }
+}
+
+span {
+  transition: all 0.5s ease;
+  &:hover {
+    color: $color-white;
   }
 }
 

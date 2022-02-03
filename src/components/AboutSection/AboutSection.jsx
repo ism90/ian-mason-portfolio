@@ -37,7 +37,9 @@ const AboutSection = () => {
           <motion.p variants={fade}>
             I'm Ian, a Junior Dev based in London, UK. I have recently completed
             the 12-week Software Developer Course with{" "}
-            <a href="https://nology.io/"><span>_nology.</span></a>
+            <a href="https://nology.io/">
+              <span>_nology.</span>
+            </a>
           </motion.p>
           <div className={styles.hide}>
             <motion.h2 variants={fade}> Stack</motion.h2>
@@ -57,7 +59,9 @@ const AboutSection = () => {
 
           <Link to="ian-mason-portfolio/contact">
             {" "}
-            <motion.button variants={fade}>Contact</motion.button>{" "}
+            <motion.button variants={fade} className={styles.button}>
+              Contact
+            </motion.button>{" "}
           </Link>
         </div>
       </div>
