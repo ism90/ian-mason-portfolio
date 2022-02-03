@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ian-mason-portfolio/static/css/main.3b670e21.css",
-    "main.js": "/ian-mason-portfolio/static/js/main.7231e145.js",
+    "main.css": "/ian-mason-portfolio/static/css/main.d674972d.css",
+    "main.js": "/ian-mason-portfolio/static/js/main.e35b49d7.js",
     "static/js/787.aa6b936d.chunk.js": "/ian-mason-portfolio/static/js/787.aa6b936d.chunk.js",
     "static/media/Me.png": "/ian-mason-portfolio/static/media/Me.d04705394e35bcf64ff9.png",
     "static/media/Hero.png": "/ian-mason-portfolio/static/media/Hero.a16b21fc789a1f40c739.png",
@@ -47,12 +47,12 @@
     "static/media/poppins-latin-900.woff2": "/ian-mason-portfolio/static/media/poppins-latin-900.52f874769ced349a3130.woff2",
     "static/media/poppins-latin-100.woff2": "/ian-mason-portfolio/static/media/poppins-latin-100.ab66112cac2ca46d6cf8.woff2",
     "index.html": "/ian-mason-portfolio/index.html",
-    "main.3b670e21.css.map": "/ian-mason-portfolio/static/css/main.3b670e21.css.map",
-    "main.7231e145.js.map": "/ian-mason-portfolio/static/js/main.7231e145.js.map",
+    "main.d674972d.css.map": "/ian-mason-portfolio/static/css/main.d674972d.css.map",
+    "main.e35b49d7.js.map": "/ian-mason-portfolio/static/js/main.e35b49d7.js.map",
     "787.aa6b936d.chunk.js.map": "/ian-mason-portfolio/static/js/787.aa6b936d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b670e21.css",
-    "static/js/main.7231e145.js"
+    "static/css/main.d674972d.css",
+    "static/js/main.e35b49d7.js"
   ]
 }
