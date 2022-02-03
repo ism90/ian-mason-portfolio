@@ -42,7 +42,7 @@ const AboutSection = () => {
             </a>
           </motion.p>
           <div className={styles.hide}>
-            <motion.h2 variants={fade}> Stack</motion.h2>
+            <motion.h2 variants={fade}>Stack</motion.h2>
           </div>
           <motion.div className={styles.grid} variants={fade}>
             <FontAwesomeIcon icon={faHtml5} size="6x" className={styles.icon} />

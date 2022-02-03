@@ -44,13 +44,13 @@ const ProjectDetail = () => {
             {project.details.map((detail) => (
               <Detail
                 title={detail.title}
-                description={detail.description}
+                description1={detail.description1}
+                description2={detail.description2}
+                code={detail.code}
+                live={detail.live}
                 key={detail.title}
               />
             ))}
-          </div>
-          <div className={styles.secondImg}>
-            <img src={project.secondaryImg} alt="" />
           </div>
         </motion.div>
       )}
@@ -58,12 +58,24 @@ const ProjectDetail = () => {
   );
 };
 
-const Detail = ({ title, description }) => {
+const Detail = ({ title, description1, description2, code, live }) => {
+  console.log(live);
   return (
     <div className={styles.detailsStyle}>
-      <h3>{title}</h3>
+      <div className={styles.detailsHeading}>
+        <h3>{title}</h3>
+        <div className={styles.buttonsWrapper}>
+          <button>
+            <a href={code}>Code</a>
+          </button>
+          <button>
+            <a href={live}>Live</a>
+          </button>
+        </div>
+      </div>
       <div className={styles.line}></div>
-      <p className={styles.text}>{description}</p>
+      <p className={styles.text}>{description1}</p>
+      <p className={styles.text}>{description2}</p>
     </div>
   );
 };
