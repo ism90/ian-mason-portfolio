@@ -44,7 +44,7 @@ const AboutSection = () => {
           <div className={styles.hide}>
             <motion.h2 variants={fade}> Stack</motion.h2>
           </div>
-          <motion.div className={styles.grid}>
+          <motion.div className={styles.grid} variants={fade}>
             <FontAwesomeIcon icon={faHtml5} size="6x" className={styles.icon} />
             <FontAwesomeIcon
               icon={faCss3Alt}

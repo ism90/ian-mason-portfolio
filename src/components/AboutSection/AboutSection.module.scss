@@ -29,8 +29,6 @@
   }
 }
 
-
-
 .description {
   flex: 1;
   padding-right: 5rem;
@@ -91,8 +89,8 @@
     }
 
     @include desktop-large {
-     object-fit: contain;
-     height: 50rem;
+      object-fit: contain;
+      height: 50rem;
     }
   }
 }
