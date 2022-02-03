@@ -103,17 +103,17 @@
   img {
     height: 5rem;
     width: 15rem;
-  }
 
-  .logo img:hover {
-    animation: hover 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    &:hover {
+      animation: hover 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 
-    @keyframes hover {
-      0% {
-        transform: scale(1);
-      }
-      100% {
-        transform: scale(1.2);
+      @keyframes hover {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.2);
+        }
       }
     }
   }
