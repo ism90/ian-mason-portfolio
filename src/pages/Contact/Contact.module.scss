@@ -42,11 +42,9 @@
 
   .links {
     flex: 1;
-    margin-bottom: 28rem;
+    margin-bottom: 23rem;
 
-    @include tablet {
-      margin-bottom: 23rem;
-    }
+
     @include mobile {
       margin-bottom: 0;
     }

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { pageAnimation, fade } from "../../animation";
 
-import Me from "../../assets/images/Me.jpg";
+import Me from "../../assets/images/Me.png";
 import Wave from "../Wave/Wave";
 
 const AboutSection = () => {

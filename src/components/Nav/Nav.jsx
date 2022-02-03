@@ -23,11 +23,11 @@ const Nav = () => {
           </Link>
           <motion.div
             className={styles.line}
-            transition={{ duration: 0}}
+            transition={{ duration: 0 }}
             initial={{ width: "0%" }}
             animate={{
               width: pathname.startsWith("/ian-mason-portfolio/projects")
-                ? "5px"
+                ? "8px"
                 : "0%",
             }}
           ></motion.div>
@@ -39,11 +39,11 @@ const Nav = () => {
           </Link>
           <motion.div
             className={styles.line}
-
+            transition={{ duration: 0 }}
             initial={{ width: "0%" }}
             animate={{
               width: pathname.startsWith("/ian-mason-portfolio/about")
-                ? "5px"
+                ? "8px"
                 : "0%",
             }}
           ></motion.div>
@@ -59,7 +59,7 @@ const Nav = () => {
             initial={{ width: "0%" }}
             animate={{
               width: pathname.startsWith("/ian-mason-portfolio/contact")
-                ? "5px"
+                ? "8px"
                 : "0%",
             }}
           ></motion.div>
