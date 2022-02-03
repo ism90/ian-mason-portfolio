@@ -9,7 +9,6 @@ export const ProjectState = () => {
   return [
     {
       title: "Lujam - Client Project",
-
       mainImg: Lujam,
       url: "/ian-mason-portfolio/projects/lujam",
       details: [
@@ -31,7 +30,10 @@ export const ProjectState = () => {
       details: [
         {
           title: "Details",
-          description: "",
+          description1: "",
+          description2: "",
+          code: "https://github.com/ism90/connect-four",
+          live: "https://ism90.github.io/connect-four/",
         },
       ],
     },
@@ -42,7 +44,10 @@ export const ProjectState = () => {
       details: [
         {
           title: "Details",
-          description: "",
+          description1: "",
+          description2: "",
+          code: "https://github.com/ism90/beers-api",
+          live: "https://ism90.github.io/beers-api/",
         },
       ],
     },
@@ -53,7 +58,10 @@ export const ProjectState = () => {
       details: [
         {
           title: "Details",
-          description: "",
+          description1: "",
+          description2: "",
+          code: "https://github.com/ism90/simple-JS-calculator",
+          live: "https://ism90.github.io/simple-JS-calculator/",
         },
       ],
     },
@@ -64,7 +72,10 @@ export const ProjectState = () => {
       details: [
         {
           title: "Details",
-          description: "",
+          description1: "",
+          description2: "",
+          code: "https://github.com/ism90/morse-translator",
+          live: "https://ism90.github.io/morse-translator/",
         },
       ],
     },
