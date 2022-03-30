@@ -26,6 +26,7 @@
   @include mobile {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 }
 
@@ -95,11 +96,13 @@
   }
 }
 
-.button {
+.button  {
   background-color: $color-secondary;
   &:hover {
     background-color: transparent;
   }
+
+
 }
 
 .icon {

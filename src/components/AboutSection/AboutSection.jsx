@@ -57,7 +57,7 @@ const AboutSection = () => {
             <FontAwesomeIcon icon={faJava} size="6x" className={styles.icon} />
           </motion.div>
 
-          <Link to="ian-mason-portfolio/contact">
+          <Link to="/ian-mason-portfolio/contact">
             {" "}
             <motion.button variants={fade} className={styles.button}>
               Contact

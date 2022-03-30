@@ -19,13 +19,13 @@ const App = () => {
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
-          <Route exact path="/ian-mason-portfolio" element={<Hero />} />
+          <Route path="/ian-mason-portfolio" element={<Hero />} />
           <Route path="ian-mason-portfolio/projects" element={<Projects />} />
           <Route
             path="ian-mason-portfolio/projects/:id"
             element={<ProjectDetail />}
           />
-          <Route exact path="ian-mason-portfolio/about" element={<About />} />
+          <Route path="ian-mason-portfolio/about" element={<About />} />
           <Route path="ian-mason-portfolio/contact" element={<Contact />} />
         </Routes>
       </AnimatePresence>
