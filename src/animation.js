@@ -9,7 +9,7 @@ export const pageAnimation = {
     transition: {
       duration: 0.5,
       when: "beforeChildren",
-      staggerChildren: 0.25,
+      staggerChildren: 0.2,
     },
   },
   exit: {
@@ -52,4 +52,3 @@ export const lineAnimation = {
     transition: { duration: 1 },
   },
 };
-
