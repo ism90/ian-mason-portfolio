@@ -13,11 +13,16 @@ $breakpoint-desktop-large: 1300px;
   box-sizing: border-box;
 }
 
+
+
 body {
   background: linear-gradient(#1c1e31, #131628);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "poppins", sans-serif;
 }
-
 
 button {
   text-decoration: none;

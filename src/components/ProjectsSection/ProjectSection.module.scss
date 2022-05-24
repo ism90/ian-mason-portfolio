@@ -2,12 +2,10 @@
 @use "../../assets/styles/mixins" as *;
 
 .projects {
-  background: linear-gradient(#1c1e31, #131628);
-  min-height: 90vh;
-  overflow: hidden;
+  height: 90vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto;
   grid-column-gap: 2%;
   grid-row-gap: 3%;
   justify-items: stretch;
@@ -113,6 +111,7 @@
     display: flex;
     list-style: none;
     justify-content: flex-start;
+    padding-bottom: 2rem;
 
     li {
       position: relative;
