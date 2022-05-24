@@ -30,8 +30,11 @@ export const ProjectState = () => {
       details: [
         {
           title: "Details",
-          description1: "",
-          description2: "",
+          description1:
+            "A browser based game created in HTML, CSS and JavaScript for _nology week 5. Styled with SCSS and using BEM naming conventions, with a responsive layout and animations for disc drops.",
+          description2:
+            "I particularly wanted to develop my understanding of HTML DOM elements, classList manipulation, arrays, and class methods.",
+
           code: "https://github.com/ism90/connect-four",
           live: "https://ism90.github.io/connect-four/",
         },
@@ -44,8 +47,11 @@ export const ProjectState = () => {
       details: [
         {
           title: "Details",
-          description1: "",
-          description2: "",
+          description1:
+            "A website built in React using the Punk API, with search and filtering functionality, for _nology course week 7.",
+          description2:
+            "The project requirements were to build a website in React with search and filtering functionality for Brewdog's Punk API, following a component tree provided in the brief. Once this functionality was implemented, I added further filtering options for bitterness, smokiness and some food pairings.",
+
           code: "https://github.com/ism90/beers-api",
           live: "https://ism90.github.io/beers-api/",
         },
@@ -58,8 +64,9 @@ export const ProjectState = () => {
       details: [
         {
           title: "Details",
-          description1: "",
-          description2: "",
+          description1:
+            "A simple calculator created in vanilla JavaScript for _nology course week 4. Styling with SCSS, utilising CSS grid and a responsive design for mobile and tablet.",
+          description2: "E2E tested with Cypress",
           code: "https://github.com/ism90/simple-JS-calculator",
           live: "https://ism90.github.io/simple-JS-calculator/",
         },
@@ -72,7 +79,8 @@ export const ProjectState = () => {
       details: [
         {
           title: "Details",
-          description1: "",
+          description1:
+            "Morse Code Translator developed Fri-Monday as a challenge for _nology course. Objectives included taking a Test Driven Development approach. The translator detects the input language (Morse Code or English) and translates accordingly. This was achieved with Object Key Value pairs and a constructor class. A third party library to play Morse sound was also added.",
           description2: "",
           code: "https://github.com/ism90/morse-translator",
           live: "https://ism90.github.io/morse-translator/",

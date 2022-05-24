@@ -67,12 +67,13 @@ const Detail = ({ title, description1, description2, code, live }) => {
       <div className={styles.detailsHeading}>
         <h3>{title}</h3>
         <div className={styles.buttonsWrapper}>
-          <button>
-            <a href={code}>Code</a>
-          </button>
-          <button>
-            <a href={live}>Live</a>
-          </button>
+          <a href={code}>
+            <button>Code</button>
+          </a>
+
+          <a href={live}>
+            <button>Live</button>
+          </a>
         </div>
       </div>
       <div className={styles.line}></div>
