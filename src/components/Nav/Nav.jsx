@@ -65,11 +65,11 @@ const Nav = () => {
           ></motion.div>
         </li>
 
-        <li className={styles.li}>
+        {/* <li className={styles.li}>
           <Link to="/ian-mason-portfolio" className={styles.resume}>
             CV
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

@@ -52,7 +52,7 @@ const Contact = () => {
             />
           </a>
           <li>
-            <button className={styles.cv}>My CV</button>
+            <button className={styles.cv}>CV</button>
           </li>
           <li className={styles.email}>ianmason5@gmail.com</li>
         </div>
